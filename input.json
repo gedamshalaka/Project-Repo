@@ -1,0 +1,33 @@
+{
+	"operation": "insert",
+	"payload": {
+		"firstname": "Johnny",
+		"lastname": "Michael",
+		"address": "New Street Denver",
+		"phone": "5562342143"
+	}
+}
+{
+	"operation": "search",
+	"fieldToSearch" : "phone",
+	"keyword": "5562342143"
+}
+{
+	"operation": "search",
+	"fieldToSearch" : "firstname",
+	"keyword": "Hn"
+}
+{
+	"operation": "search",
+	"fieldToSearch" : "lastname",
+	"keyword": "Ae"
+}
+{
+	"operation": "search",
+	"fieldToSearch" : "address",
+	"keyword": "new street"
+}
+{
+	"operation": "delete",
+	"phone" : "5562342143"
+}
